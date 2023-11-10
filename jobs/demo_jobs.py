@@ -16,7 +16,3 @@ class DemoJob(Job):
         self.debug = debug
 
         self.logger.info("The job ran successfully.")
-
-
-jobs = [DemoJob]
-register_jobs(*jobs)
